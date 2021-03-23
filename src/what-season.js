@@ -12,7 +12,7 @@ module.exports = function getSeason(date) {
 
   let month = date.getMonth();
 
-  console.log(date.getUTCMonth())
+  x = date.getUTCMonth()
 
   if (month === 11 || month === 0 || month === 1) {return 'winter'};
   if (month === 2 || month === 3 || month === 4) {return 'spring'};
